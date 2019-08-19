@@ -173,3 +173,6 @@ input[placeholder="your email"] {
   vertical-align: middle;
   width: 100%;
 }
+.column img:hover {
+  filter: grayscale(45%);
+}
