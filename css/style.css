@@ -159,6 +159,7 @@ input[placeholder="your email"] {
   background-color: #fff;
   max-width: 1200px;
   margin: auto;
+  border-bottom: 6px solid white;
 }
 
 .column {
