@@ -79,8 +79,12 @@ li a:hover {
 
 h1 {
   font-family: 'Megrim', cursive;
-  font-size: 25px;
+  font-size: 40px;
   color: rgba(245, 75, 155, 1);
+}
+img.main-flowers {
+width: 87%;
+padding: 0 80px 0 0;
 }
 p.main {
   font-family: 'Poiret One', cursive;
@@ -89,6 +93,23 @@ p.main {
   text-align: justify;
   padding: 0 80px 0 0;
 }
+a.main:link {
+  color: rgba(20, 166, 103, .75);
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+}
+a.main:visited {
+  color: rgba(20, 166, 103, .75);
+  background-color: transparent;
+  text-decoration: none;
+}
+a.main:hover {
+  color: rgb(50, 117, 168);
+  background-color: #e6f25e;
+  text-decoration: none;
+}
+
 h2 {
   font-family: 'Julius Sans One', sans-serif;
   font-size: 15px;
@@ -133,13 +154,16 @@ input[placeholder="your email"] {
 /*portfolio columns*/
 .row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding: 0 4px;
+  background-color: #fff;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .column {
-  flex: 50%;
-  max-width: 50%;
+  flex: 25%;
+  max-width: 25%;
   padding: 0 4px;
 }
 
